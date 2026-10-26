@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Project | Shreya Punjabi</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header id="site-header" class="site-header"></header>
+
+  <main class="container project-detail-page">
+    <nav
+      id="project-breadcrumbs"
+      class="breadcrumbs"
+      aria-label="Breadcrumb"
+    ></nav>
+
+    <p id="project-status" role="status">Loading project...</p>
+
+    <article id="project-detail" hidden>
+      <section class="project-hero">
+        <div class="project-hero-text">
+          <p class="eyebrow" id="project-category"></p>
+          <h1 id="project-title"></h1>
+          <p class="intro-text" id="project-short-description"></p>
+        </div>
+
+        <div class="project-hero-image" id="project-hero-wrap"></div>
+      </section>
+
+      <section class="project-section" id="gallery-section" hidden>
+        <h2>Gallery</h2>
+        <div id="project-gallery" class="gallery"></div>
+      </section>
+
+      <section class="project-section" id="overview-section" hidden>
+        <h2>Overview</h2>
+        <p id="project-overview" class="project-copy"></p>
+      </section>
+
+      <section class="project-section" id="tools-section" hidden>
+        <h2>Tools / Tech</h2>
+        <div id="project-tools" class="tool-list"></div>
+      </section>
+
+      <section class="project-section" id="process-section" hidden>
+        <h2>Process</h2>
+        <p id="project-process" class="project-copy"></p>
+      </section>
+
+      <!-- <section class="project-section" id="gallery-section" hidden>
+        <h2>Gallery</h2>
+        <div id="project-gallery" class="gallery"></div>
+      </section> -->
+
+      <section class="project-section" id="uses-section" hidden>
+        <h2>Made using</h2>
+        <p class="section-description">
+          Materials, shaders, and systems used in this project.
+        </p>
+
+        <div id="project-uses" class="projects-list"></div>
+      </section>
+
+      <section class="project-section" id="used-in-section" hidden>
+        <h2>Used in</h2>
+        <p class="section-description">
+          Projects that use this work.
+        </p>
+
+        <div id="project-used-in" class="projects-list"></div>
+      </section>
+    </article>
+
+    <noscript>
+      <p>Please enable JavaScript to view this project.</p>
+    </noscript>
+  </main>
+</body>
+</html>

@@ -1,0 +1,117 @@
+{
+  "categories": [
+    
+    {
+      "id": "3d-interiors",
+      "name": "3D Interiors",
+      "description": "Interior scenes, lighting, and visual storytelling."
+    }
+    
+  ],
+  "projects": [
+    
+
+    {
+      "id": "yellow-bedroom",
+      "name": "Master Bedroom",
+      "category": "3d-interiors",
+      "shortDescription": "",
+      "heroImage": "media/yellow-bedroom/persp4.png",
+      "overview": "",
+      "tools": ["Blender"],
+      "process": "",
+      "gallery": [
+ 
+        "media/yellow-bedroom/test3.png",
+        "media/yellow-bedroom/test4.png",
+        "media/yellow-bedroom/persp1.png",
+        "media/yellow-bedroom/persp2.png",
+        "media/yellow-bedroom/persp3.png"
+        
+
+      ],
+      "uses": []
+    },
+
+    
+    {
+      "id": "living-blue",
+      "name": "Kid's Bedroom",
+      "category": "3d-interiors",
+      "shortDescription": "",
+      "heroImage": "media/living-blue/persp2.png",
+      "overview": "",
+      "tools": ["Blender"],
+      "process": "",
+      "gallery": [
+ 
+        "media/living-blue/persp1.png",
+        "media/living-blue/close2.png",
+        "media/living-blue/clay1.png"
+        
+        
+
+      ],
+      "uses": []
+    },
+
+    {
+      "id": "guitar-dining",
+      "name": "Living Room",
+      "category": "3d-interiors",
+      "shortDescription": "",
+      "heroImage": "media/guitar-dining/persp2.png",
+      "overview": "",
+      "tools": ["Blender"],
+      "process": "",
+      "gallery": [
+        "media/guitar-dining/persp3.png",
+        "media/guitar-dining/persp1.png",
+        "media/guitar-dining/test1.png",
+        "media/guitar-dining/clay1.png"
+      ],
+      "uses": []
+    },
+
+    {
+      "id": "green-kitchen",
+      "name": "Kitchen",
+      "category": "3d-interiors",
+      "shortDescription": "",
+      "heroImage": "media/green-kitchen/persp1.png",
+      "overview": "",
+      "tools": ["Blender"],
+      "process": "",
+      "gallery": [
+        "media/green-kitchen/persp2.png",
+        "media/green-kitchen/persp3.png",
+        "media/green-kitchen/close1.png",
+        "media/green-kitchen/clay1.png"
+      ],
+      "uses": []
+    },
+
+    {
+      "id": "coffee-shop",
+      "name": "Coffee Shop",
+      "category": "3d-interiors",
+      "shortDescription": "",
+      "heroImage": "media/coffee-shop/persp1_dof.png",
+      "overview": "",
+      "tools": ["Blender"],
+      "process": "",
+      "gallery": [
+        "media/coffee-shop/close_white1.png"
+      ],
+      "uses": []
+    }
+
+
+
+
+    
+
+
+
+  ]
+}
